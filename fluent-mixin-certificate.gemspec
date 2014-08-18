@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-mixin-certificate"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["TAGOMORI Satoshi"]
   spec.email         = ["tagomoris@gmail.com"]
   spec.summary       = %q{Fluentd mixin module to provide certificate/key generation/handling}
@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
   spec.add_runtime_dependency "fluentd"
-  spec.add_runtime_dependency "fluent-mixin-config-placeholders"
+  spec.add_runtime_dependency "fluent-mixin-config-placeholders", ">= 0.3.0"
 end
